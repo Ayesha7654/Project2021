@@ -71,7 +71,7 @@ public class Menu_1 extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Menu");
 
-        jButton5.setForeground(new java.awt.Color(153, 0, 0));
+        jButton5.setBackground(new java.awt.Color(0, 153, 51));
         jButton5.setText("Back");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

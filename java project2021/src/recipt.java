@@ -143,11 +143,11 @@ public class recipt extends javax.swing.JFrame {
       flag=e.setName(n);
       if((name.equals(" ")) &&( signature.equals(" ")))
       {
-         JOptionPane.showMessageDialog(this,"data not added"); 
+         JOptionPane.showMessageDialog(this,"Data not added"); 
       }
       else
       {
-        JOptionPane.showMessageDialog(this,"Data not added successfully");
+        JOptionPane.showMessageDialog(this,"Data  added successfully");
       }
       
         // TODO add your handling code here:

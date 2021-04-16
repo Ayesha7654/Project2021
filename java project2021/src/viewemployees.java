@@ -48,6 +48,7 @@ public class viewemployees extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
+        jButton2.setBackground(new java.awt.Color(0, 204, 0));
         jButton2.setText("Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -55,6 +56,7 @@ public class viewemployees extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 255));
         jButton1.setText("Show");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -175,7 +177,7 @@ public class viewemployees extends javax.swing.JFrame {
           java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 dispose();
-                new menu().setVisible(true);
+                new Menu_1().setVisible(true);
             }
         });
     }//GEN-LAST:event_jButton2ActionPerformed

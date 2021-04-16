@@ -64,7 +64,7 @@ public class addemployees extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Enter Name");
 
-        jButton1.setBackground(new java.awt.Color(51, 255, 102));
+        jButton1.setBackground(new java.awt.Color(0, 102, 255));
         jButton1.setText("Add Employee");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -72,6 +72,7 @@ public class addemployees extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(0, 204, 51));
         jButton2.setText("Back");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
