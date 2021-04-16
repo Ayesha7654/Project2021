@@ -192,7 +192,7 @@ public class View extends javax.swing.JFrame {
       flag=e.setemail(em);
       flag=e.setnumber(num);
       list.add(e);
-      JOptionPane.showMessageDialog(this,"item added successfully");
+      JOptionPane.showMessageDialog(this,"item employee successfully");
        java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 dispose();
