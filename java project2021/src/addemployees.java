@@ -142,6 +142,7 @@ public class addemployees extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
           // TODO add your handling code here:
+          dispose();
         File file=new File("emplyeeRecord.txt");
                 FileInputStream fi = null;
         try {

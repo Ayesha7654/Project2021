@@ -126,7 +126,7 @@ public class login extends javax.swing.JFrame {
   
            String name=username.getText();
         String pass=password.getText();
-        if(name.equals("admin098") && pass.equals("admin098"))
+        if(name.equals("ayesha") && pass.equals("1234"))
         {
             java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {

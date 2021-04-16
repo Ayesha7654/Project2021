@@ -138,7 +138,7 @@ public class Items extends javax.swing.JFrame {
       item obj=new  item();
        obj.name = n;
        obj.amount=amo;
-       if((name.equals(null)) && amount.equals(null))
+       if(name==null && amount==null)
        {
            JOptionPane.showMessageDialog(this,"item not successfully");  
        }

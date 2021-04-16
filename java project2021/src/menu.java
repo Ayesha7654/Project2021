@@ -138,6 +138,7 @@ public class menu extends javax.swing.JFrame {
    
    java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
+                dispose();
                 new Menu_1().setVisible(true);
             }
         });        // TODO add your handling code here:
