@@ -1,3 +1,6 @@
+
+
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -41,7 +44,7 @@ public class menu extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Menu");
 
-        jButton1.setText("Add employee");
+        jButton1.setText(" Employee");
         jButton1.setBorder(javax.swing.BorderFactory.createCompoundBorder());
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,7 +52,7 @@ public class menu extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("Add iteams");
+        jButton2.setText("Iteams");
         jButton2.setBorder(javax.swing.BorderFactory.createCompoundBorder());
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -135,7 +138,7 @@ public class menu extends javax.swing.JFrame {
    
    java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new View().setVisible(true);
+                new Menu_1().setVisible(true);
             }
         });        // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed

@@ -138,7 +138,14 @@ public class Items extends javax.swing.JFrame {
       item obj=new  item();
        obj.name = n;
        obj.amount=amo;
+       if((name.equals(null)) && amount.equals(null))
+       {
+           JOptionPane.showMessageDialog(this,"item not successfully");  
+       }
+       else
+       {
        JOptionPane.showMessageDialog(this,"item added successfully");
+       }
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 dispose();

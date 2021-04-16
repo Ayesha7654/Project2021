@@ -123,7 +123,7 @@ public class recipt extends javax.swing.JFrame {
       List < recepit> list= new ArrayList< recepit>();
       boolean flag=false;
       flag=e.setName(n);
-      if(name==null && signature==null)
+      if((name.equals(null)) &&( signature.equals(null)))
       {
          JOptionPane.showMessageDialog(this,"data not added"); 
       }
